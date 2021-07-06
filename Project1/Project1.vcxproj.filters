@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2dFrameWork">
+      <UniqueIdentifier>{24dd4739-4d6f-4d3b-ace1-d63b25792656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2dFrameWork\Manager">
+      <UniqueIdentifier>{694cd546-8a1f-4300-9129-8b8f0781a29c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{b48ff530-4c31-403c-8d16-a2e5440f1f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2dFrameWork\Scene">
+      <UniqueIdentifier>{6a2cb3f5-5ad5-4f0f-b183-47c93d166df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2dFrameWork\Object">
+      <UniqueIdentifier>{37f433fe-6c43-4864-a46c-4557c0d93775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2dFrameWork\Object\Item">
+      <UniqueIdentifier>{a8fee573-e704-4de3-b5e6-ecff0f762157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2dFrameWork\Object\Missile">
+      <UniqueIdentifier>{bc714cb6-7ea6-4ed4-991e-e14ac68ec544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2dFrameWork\Object\Tank">
+      <UniqueIdentifier>{fd6928dd-ef15-4857-852a-8738b2c50fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2dFrameWork\Object\Tank\Player">
+      <UniqueIdentifier>{e1cfe560-701c-4ebd-b773-bae1466387bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2dFrameWork\Object\Tank\Enemy">
+      <UniqueIdentifier>{7931fa9c-3401-4f46-88b9-2217234ce2b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>2dFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>2dFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>2dFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>2dFrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScene.cpp">
+      <Filter>2dFrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>2dFrameWork\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>2dFrameWork\Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>2dFrameWork\Object\Tank\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>2dFrameWork\Object\Tank\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>2dFrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMissileManager.cpp">
+      <Filter>2dFrameWork\Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>2dFrameWork\Object\Tank\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionEngine.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="StageClearResult.cpp">
+      <Filter>2dFrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditor.cpp">
+      <Filter>2dFrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>2dFrameWork\Object\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainManager.cpp">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>2dFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>2dFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>2dFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>2dFrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScene.h">
+      <Filter>2dFrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>2dFrameWork\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>2dFrameWork\Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>2dFrameWork\Object\Tank\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>2dFrameWork\Object\Tank\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>2dFrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMissileManager.h">
+      <Filter>2dFrameWork\Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>2dFrameWork\Object\Tank\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionEngine.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="StageClearResult.h">
+      <Filter>2dFrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditor.h">
+      <Filter>2dFrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroFunction.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>2dFrameWork\Object\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>2dFrameWork\Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleLog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainManager.h">
+      <Filter>2dFrameWork\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
